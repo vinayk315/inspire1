@@ -1,2 +1,149 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inspire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" href=link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+<body id="top">
+    <header>
+        <!-- NAVIGATION BAR-->
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active"><span class="logo">IN</span>SPIRE</a>
+            <a href="Inspire is an Indian multinational educational technology company that provides online educational platform. It prepares students for various competitive exams, as well as provides content on foundational and skill building courses">ABOUT US</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">COURSES</button>
+                <div class="dropdown-content">
+                    <a href="https://unacademy.com/content/jee/study-material/">IIT JEE</a>
+                    <a href="https://unacademy.com/content/neet-ug/study-material/">NEET</a>
+                    <a href="https://cbseacademic.nic.in/publication_sqps.html">CLASS-12</a>
+                    <a href="https://www.vedantu.com/study-material/cbse-study-material-for-class-11">CLASS-11</a>
+                </div>
+                <i class="fa fa-angle-down"></i>
+            </div>
+
+            <a href="https://www.jeeneetforall.in/">PDF LIBRARY OF EXAMS</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">FACILITIES</button>
+                <div class="dropdown-content">
+                    <a href="#">ACTIVITIES </a>
+                    <a href="#">TECHNICAL CLUB</a>
+                </div>
+                <i class="fa fa-angle-down"></i>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">GALLERY</button>
+                <div class="dropdown-content">
+                    <a href="https://www.selfstudys.com/mcq/jee/online/mock-test">Test</a>
+                    <a href="https://atpstar.com/study-material.html">study materials</a>
+                    <a href="https://edurev.in/courses/26897_DPP-Daily-Practice-Problems-for-NEET">dpp</a>
+                    <a href="https://www.youtube.com/@PhysicsWallah">Doubt class for neet and jee</a>
+                </div>
+                <i class="fa fa-angle-down"></i>
+            </div>
+
+            <a href="#home" class="main">CONTACT</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="slides" id="top">
+        <img src="education-day-arrangement-table-with-copy-space.jpg" alt="bacfacile">
+    </div>
+
+    <div class="whoarewe">
+        <img class="image"
+            src="https://collegeinfogeek.com/wp-content/uploads/2019/01/md-duran-1VqHRwxcCCw-unsplash.jpg"
+            alt="bacfacile">
+        <div class="whoarewetext">
+            <h3></h3>
+            <p>
+                Inspire seeks to provide world class facilities and infrastructure to make students aspire for
+                a bright career ahead. Professional faculties will aid the student with best learning experience along
+                with detailed video lectures for better understanding and creative approach.
+
+            </p>
+        </div>
+    </div>
+
+    <ul>
+        <div>
+            <li>
+                <a class="box1" href="#">
+                    <i class="fa fa-laptop fa-3x"></i>
+                </a>
+            </li>
+
+            <h4>VIDEOS FOR ALL LESSONS</h4>
+            
+            <p>Huge library of HD videos of lessons, exercises and exams specially for your knowledge</p>
+        </div>
+        <div>
+            <li>
+                <a class="box2" href="#">
+                    <i class="fa fa-book fa-3x"></i>
+                </a>
+            </li>
+            <h4>E-LIBRARY</h4>
+            <p>We provide you with a variety of e-books for in-depth understanding of the subjects for free</p>
+        </div>
+        <div>
+            <li>
+                <a class="box3" href="#">
+                    <i class="fa fa-users fa-3x"></i>
+                </a>
+            </li>
+            <h4>COURSES</h4>
+            <p>Our courses range from iit jee and neet levels with unique streams like math stream and biology stream,
+                .</p>
+        </div>
+        <div>
+            <li>
+                <a class="box4" href="#">
+                    <i class="fa fa-graduation-cap fa-3x"></i>
+                </a>
+            </li>
+            <h4>ALUMNI</h4>
+            <p>Listen successful stories of career development from our Inspire Alumnis and connect with them.</p>
+        </div>
+    </ul>
+
+
+    <div class="contact">
+        <div class="icon"><i class="fa fa-phone fa-3x"></i></div>
+        <div class="details">
+            <h1>CONTACT</h1>
+            <p>
+                Contact us on the e-mail below or call us for further details: 00011111
+                <br><br>
+                Email: Inspire@Inspire.edu
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://www.facebook.com/bacfacileCom/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com/bacfacilecom" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.youtube.com/@UnacademyAtoms" target="_blank"><i
+                class="fa fa-youtube-play fa-2x"></i></a>
+    </footer>
+
+    <a class="top-button" href="#top"><i class="fa fa-angle-up fa-2x"></i></a>
+
+    <script src="Inspire.js"></script>
+</body>
+
+</html>
